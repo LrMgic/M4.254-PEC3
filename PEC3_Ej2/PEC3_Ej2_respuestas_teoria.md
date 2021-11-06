@@ -1,0 +1,1 @@
+![Screenshot](Capturaex2.png)
