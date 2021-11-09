@@ -1,12 +1,12 @@
 {
   "compilerOptions": {
     /* Basic Options */
-    "target": "es2015", 
-    "module": "commonjs", 
-    "outDir": "./dist",   
-    "rootDir": "./src", 
-    "strict": true,
-    "incremental": true,
-    "tsBuildInfoFile": "./buildcache",
+    "target": "es2015", // Sirve para configurar a partir de que version de navegador se verá la compiación, Cuanto más bajo sea el número, la copilación podrá ser ejecutada por navegadores más antiguos.
+    "module": "commonjs", // Define que tipo de cargador de módulos se utilizará. Los módulos no son visibles entre ficheros, excepto que se importe explicitamente. En TypeScript los módulos se importan entre sí mediante un cargador de módulos, en este caso commonjs.
+    "outDir": "./dist",   // "Saida" Se define la dirección donde se emiten los archivos copilados.
+    "rootDir": "./src", // "Entrada" Es la dirección desde donde cogerá los archivos para copilar.
+    "strict": true, // Activar esta opción habilita una amplia gama de comportamiento de verificación de tipo que da como resultado mayores garantías de corrección del programa.
+    "incremental": true, // Habilita el guardado de información sobre el gráfico del proyecto desde la última compilación en archivos almacenados en el disco.
+    "tsBuildInfoFile": "./buildcache", // Configura el lugar donde TypeScript realiza un seguimiento de los archivos que almacena en el disco para indicar el estado de compilación de un proyecto.
   }
 }
