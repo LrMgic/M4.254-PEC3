@@ -1,5 +1,4 @@
 • Login UOC: gvidalgo
 • Nombre y apellidos del alumno: Gerard vidal Gonzalez
-• Se ha completado con exito el ejercicio 1, 2 y 3. Aplicando en este último las mejoras sujeridas por el profesor.
-El ejercicio 4 hace una mala copilación, ya que no se habre el ejercicio en el navegador. Se ha completado la migración de js a ts excepto en el fichero views, el qual diria que es el que genera el error.
-Se ha implantad el uso de webpack a través de paquetes npm, creando un único archivo bundle.js
+• Se ha completado con exito el ejercicio 1, 2, 3 y 4. Aplicando en el ejercicio 3, las mejoras sujeridas por el profesor.
+El ejercicio 4 se ha detectado que los primeros objetos que aparecen al iniciar la aplicación no tienen texto y estan en formato [object object].
