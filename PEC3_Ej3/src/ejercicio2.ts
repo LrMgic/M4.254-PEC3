@@ -7,8 +7,7 @@ interface Plane{
     npassengers:number
 }
 interface HangarHash {
-  '123Z'?: Plane,
-  'H789'?: Plane
+    [index: string]: Plane
 }
 
 let myHangar:HangarHash = {}
